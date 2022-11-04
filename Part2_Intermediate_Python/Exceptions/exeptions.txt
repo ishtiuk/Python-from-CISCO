@@ -1,0 +1,28 @@
+Exceptions
+Each time your code tries to do something wrong/foolish/irresponsible/crazy/unenforceable, Python does two things:
+
+it stops your program;
+it creates a special kind of data, called an exception.
+Both of these activities are called raising an exception. We can say that Python always raises an exception (or that an exception has been raised) when it has no 
+idea what to do with your code.
+
+What happens next?
+
+the raised exception expects somebody or something to notice it and take care of it;
+if nothing happens to take care of the raised exception, the program will be forcibly terminated, and you will see an error message sent to the console by Python;
+otherwise, if the exception is taken care of and handled properly, the suspended program can be resumed and its execution can continue.
+Python provides effective tools that allow you to observe exceptions, identify them and handle them efficiently. This is possible due to the fact that all potential 
+exceptions have their unambiguous names, so you can categorize them and react appropriately.
+
+
+
+
+The concept of exceptions
+
+
+You know some exception names already. Take a look at the following diagnostic message:
+
+ValueError: math domain error 
+
+
+The word highlighted above is just the exception name. Let's get familiar with some other exceptions.

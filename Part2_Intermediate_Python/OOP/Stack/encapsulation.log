@@ -1,0 +1,13 @@
+The objective approach delivers solutions for each of the above problems. Let's name them first:
+
+1. the ability to hide (protect) selected values against unauthorized access is called encapsulation; the encapsulated values can be neither accessed nor
+ modified if you want to use them exclusively;
+
+2. when you have a class implementing all the needed stack behaviors, you can produce as many stacks as you want; you needn't copy or replicate any part of the code;
+
+3. the ability to enrich the stack with new functions comes from inheritance; you can create a new class (a subclass) which inherits all the existing traits from
+ the superclass, and adds some new ones.
+The stack - procedural vs. object approach
+
+
+Let's now write a brand new stack implementation from scratch. This time, we'll use the objective approach, guiding you step by step into the world of object programming.
